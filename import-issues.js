@@ -2,7 +2,7 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const axios = require('axios');
 
-const GITHUB_TOKEN = process.env.MY_GITHUB_TOKEN;
+const GITHUB_TOKEN = "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";
 const REPO_OWNER = 'Ani-Hambardzumyan97'; // Change to your GitHub username
 const REPO_NAME = 'test-private'; // Change to your repo name
 const API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/issues`;
